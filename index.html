@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tyler Dunkin - Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f7f7f9;
+      margin: 0;
+      color: #222;
+    }
+    .container {
+      max-width: 700px;
+      background: #fff;
+      margin: 40px auto 20px auto;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+      padding: 32px 28px;
+      border-radius: 12px;
+    }
+    h1, h2 {
+      margin-bottom: 6px;
+      color: #2a4d69;
+    }
+    h1 {
+      font-size: 2em;
+    }
+    h2 {
+      font-size: 1.2em;
+      margin-top: 32px;
+      border-bottom: 1px solid #e2e2e2;
+      padding-bottom: 2px;
+      letter-spacing: 1px;
+    }
+    .contact {
+      margin-bottom: 20px;
+      font-size: 1em;
+      color: #555;
+    }
+    ul, .skills-list {
+      padding-left: 18px;
+      margin: 0;
+    }
+    .section {
+      margin-bottom: 28px;
+    }
+    .certifications, .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 30px;
+    }
+    .certifications span, .skills-list span {
+      background: #e8f0fe;
+      color: #1a5ab8;
+      border-radius: 4px;
+      padding: 3px 10px;
+      font-size: 0.97em;
+      margin-bottom: 4px;
+    }
+    .edu-details strong {
+      display: inline-block;
+      min-width: 180px;
+    }
+    .exp-title {
+      font-weight: 600;
+      font-size: 1.07em;
+      margin-bottom: 2px;
+      color: #1a5ab8;
+    }
+    .exp-period {
+      color: #888;
+      font-size: 0.96em;
+      font-style: italic;
+      margin-left: 8px;
+    }
+    @media (max-width: 600px) {
+      .container { padding: 18px 6px; }
+      .edu-details strong { min-width: unset; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Tyler Dunkin</h1>
+    <div class="contact">
+      185 Riparian Lane &bull; Ranson, WV &bull; 304-240-9485 &bull; <a href="mailto:tylerdunkin06@gmail.com">tylerdunkin06@gmail.com</a>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <div class="edu-details">
+        <div><strong>Shepherd College:</strong> Bachelor’s in Computer and Information Sciences <em>(In Progress)</em></div>
+        <div><strong>Blue Ridge Community and Technical College:</strong> Associate of Applied Science in Cybersecurity, 2025</div>
+        <div>President’s List, Fall 2024-2025</div>
+      </div>
+      <div class="certifications" style="margin-top:10px;">
+        <span>Information Security (INFS)</span>
+        <span>Business and Technology (CRTB)</span>
+        <span>Business Operations</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Experience</h2>
+      <div>
+        <div class="exp-title">IT Technician – Streamline IT
+          <span class="exp-period">(Feb 2024 – Present)</span>
+        </div>
+        <ul>
+          <li>Support ~30 clients with PC setups, Active Directory, DHCP, and server management.</li>
+          <li>Perform backups and recovery using Datto, including full server restoration.</li>
+          <li>Provide daily client support and troubleshooting, building strong professional relationships.</li>
+          <li>Trained and mentored new interns on technical processes and client interaction.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <span>Windows Server</span>
+        <span>Active Directory</span>
+        <span>DHCP</span>
+        <span>Backup &amp; Recovery (Datto)</span>
+        <span>Technical Troubleshooting &amp; PC Setup</span>
+        <span>Client Communication &amp; Training</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
